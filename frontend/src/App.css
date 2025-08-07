@@ -1,0 +1,95 @@
+body {
+  background-color: none;
+}
+/* full screen */
+@media (min-width: 991.98px) {
+  .main-content {
+    padding-left: 350px;
+    padding-right: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0; /* Height of navbar */
+  padding-top: 90px;
+  /* box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%); */
+  width: 300px;
+  z-index: 1;
+}
+/* top Sidebar */
+.bg-lightblue {
+  background-color: lightblue;
+}
+
+/* smaller screens */
+@media (max-width: 991.98px) {
+  .main-content {
+    padding-top: 100px;
+    padding-left: 25%;
+    padding-right: 20px;
+  }
+  .sidebar {
+    width: 25%;
+  }
+  /*
+  .bg-shortlightblue{
+     top nav background 
+  }*/
+}
+.sidebar .active {
+  border-radius: 0px;
+  box-shadow: 0 0px 0px 0 rgba(255, 255, 255, 0),
+    0 0px 0px 0 rgba(255, 255, 255, 255);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+/* Report tabs */
+.nav-tabs {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Tables */
+.table-responsive {
+  position: relative;
+  height: 250px;
+  overflow-y: auto;
+}
+
+.table-responsive tbody {
+  position: absolute;
+  height: 250px;
+  overflow-y: auto;
+}
+
+.table-responsive tr {
+  width: 100%;
+  table-layout: fixed;
+  display: table;
+}
+
+.table-responsive thead > tr > th {
+  border: none;
+}
+
+.hoverable-row:hover {
+  background-color: #f0f0f0; /* Change this color to your desired hover background color */
+}
