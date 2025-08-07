@@ -26,7 +26,8 @@ LSTM captured context well; dropout addressed overfitting. Ethical data splits e
 ## Artifacts
 - Code: [sentiment_analysis.ipynb](../sentiment-analysis/sentiment_analysis.ipynb)
 - Model: sentiment_model.keras
-- [Add loss_plot.png to assets/, e.g., <<img width="242" height="686" alt="image" src="https://github.com/user-attachments/assets/f6c19714-ccc0-4b9d-b702-887d2d8ba547" />
+- [<img width="640" height="480" alt="loss_plot" src="https://github.com/user-attachments/assets/49edb672-01db-4add-93d2-f7bc8b02fe53" />
+>
 >]
 
 [Back to Home](/)
