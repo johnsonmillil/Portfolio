@@ -2,7 +2,7 @@
 
 Welcome! I'm Johnson J. Millil, a recent MS in Data Science graduate (expected 2025). My projects demonstrate expertise in machine learning, optimization, full-stack development, and cloud deployment, delivering actionable insights for real-world problems. 
 
-## Contact: [johnsonmillil7@gmail.com] | [[LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)]
+## Contact: johnsonmillil7@gmail.com | [[LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)]
 
 ## Featured Projects
 - [Amazon Air Optimization](#amazon-air-optimization)
