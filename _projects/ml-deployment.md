@@ -23,6 +23,7 @@ Resolved scipy compatibility; emphasized CI/CD for production.
 ## Artifacts
 - Repo: [GitLab](https://gitlab.com/wgu-gitlab-environment/student-repos/jmillil/d602-deployment-task-3)
 - Code: [app.py](../ml-deployment/app.py), [Dockerfile](../ml-deployment/Dockerfile)
+
   <img width="376" height="380" alt="image" src="https://github.com/user-attachments/assets/63572d18-4cb5-4448-98fa-13514a01d6cd" />
 
 
