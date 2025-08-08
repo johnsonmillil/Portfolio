@@ -6,7 +6,7 @@ Welcome! I'm Johnson J. Millil, a recent MS in Data Science graduate (expected 2
 
 ## Featured Projects
 - [Amazon Air Optimization](#amazon-air-optimization)
-- [sentiment_analysis.ipynb](../sentiment_analysis.ipynb)
+- [Sentiment Analysis with LSTM](#sentiment-analysis)
 - [Hospital Revenue Forecasting](#time-series-forecasting)
 - [Market Basket Analysis](#market-basket-analysis)
 - [House Price Prediction with PCA](#pca-linear-regression)
