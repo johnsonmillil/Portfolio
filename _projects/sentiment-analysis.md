@@ -24,7 +24,7 @@ Visuals: Loss/accuracy plots show training convergence, minor overfitting mitiga
 LSTM captured context well; dropout addressed overfitting. Ethical data splits ensured fairness.
 
 ## Artifacts
-- Code: [sentiment_analysis.ipynb]
+- Code: sentiment_analysis.ipynb](../sentiment_analysis.ipynb)
 - Model: sentiment_model.keras
 <img width="640" height="480" alt="loss_plot" src="https://github.com/user-attachments/assets/49edb672-01db-4add-93d2-f7bc8b02fe53">
 
