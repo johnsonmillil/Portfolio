@@ -1,0 +1,32 @@
+<img width="1200" height="600" alt="forecast_plot" src="https://github.com/user-attachments/assets/ae421b56-bfd9-4510-a0b4-698336371e52" /># Hospital Revenue Forecasting with SARIMA (D603)
+
+## Overview
+Forecasted daily hospital revenue for Horizon Health Network using medical_clean.csv (731 days) to inform resource planning with a SARIMA model.
+
+## Approach
+- Prepared data: Daily aggregation, differencing for stationarity (ADF p=0.000).
+- Analyzed trends: ACF/PACF showed 7-day seasonality.
+- Fitted SARIMA(1,1,1)(1,0,1,7), 80/20 split, forecasted 90 days.
+
+## Technologies
+Python, Statsmodels, Pandas, Matplotlib.
+
+## Results
+| Metric          | Value          |
+|-----------------|----------------|
+| Test MSE        | 12.78          |
+| AIC             | 710.92         |
+| 90-Day Avg Forecast | ~16.28M/day |
+
+Visuals: Forecast plot with 95% CI, decomposition.
+
+## Learnings
+Weak seasonality suggests model refinement; stationarity assumptions held.
+
+## Artifacts
+- Repo: [GitLab task3_branch]
+- Code: [analysis.py](../time-series/analysis.py)
+- [<img width="1200" height="600" alt="forecast_plot" src="https://github.com/user-attachments/assets/082a2de1-bb5c-4531-b5c4-6a6e98be3cad" />
+]
+
+[Back to Home](/)
