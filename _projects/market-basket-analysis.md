@@ -23,6 +23,6 @@ High-lift rules enable cross-selling; assumes independent transactions.
 
 ## Artifacts
 - Code: [D599_Task3.py](../D599_Task3.py)
-- [<img width="1127" height="337" alt="image" src="https://github.com/user-attachments/assets/7ce77af6-5eea-40e5-a47c-7589793aca45" />]
+  <img width="1127" height="337" alt="image" src="https://github.com/user-attachments/assets/7ce77af6-5eea-40e5-a47c-7589793aca45" />
 
 [Back to Home](/)
