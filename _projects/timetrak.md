@@ -25,6 +25,6 @@ Mastered secure database connections (RDS), modular API routing, and integrating
 - Code: [server.js](/timetrak/server.js), [connection.js](/timetrak/connection.js), [vite.config.js](/timetrak/vite.config.js)
 - Screenshots: [<img src="/assets/timetrak/dashboard.png" alt="Dashboard">, <img src="/assets/timetrak/report-chart.png" alt="Report Chart">]
 - Video: [Demo video, upload to assets/timetrak/demo.mp4 if available]
-- Backend/Frontend Files: [timetrak folder](/Timetrak.zip)
+- Backend/Frontend Files: [Timetrak folder](/Timetrak.zip)
 
 [Back to Home](/)
