@@ -1,7 +1,4 @@
-# Team-04
-
-FALL 2023
-CIS 4375-12371
+# Project TimeTrak
 
 Startup:
 1- Install packages (npm install) in both 'team-04', and 'backend' folders
