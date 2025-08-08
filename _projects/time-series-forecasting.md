@@ -25,7 +25,7 @@ Weak seasonality suggests model refinement; stationarity assumptions held.
 
 ## Artifacts
 - Repo: [GitLab task3_branch]
-- Code: [analysis.py](../time-series/analysis.py)
+- Code: [analysis.py](../analysis.py)
 <img width="1200" height="600" alt="forecast_plot" src="https://github.com/user-attachments/assets/f4ad0c7a-4a41-4ef4-87d6-ad7586dc85a4" />
 
 
