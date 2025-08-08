@@ -1,3 +1,5 @@
+# Hospital Revenue Forecasting with SARIMA (D603)
+
 ## Overview
 Forecasted daily hospital revenue for Horizon Health Network using medical_clean.csv (731 days) to inform resource planning with a SARIMA model.
 
@@ -24,7 +26,7 @@ Weak seasonality suggests model refinement; stationarity assumptions held.
 ## Artifacts
 - Repo: [GitLab task3_branch]
 - Code: [analysis.py](../time-series/analysis.py)
-- [<img width="1200" height="600" alt="forecast_plot" src="https://github.com/user-attachments/assets/082a2de1-bb5c-4531-b5c4-6a6e98be3cad" />
-]
+- [<img width="1200" height="600" alt="forecast_plot" src="https://github.com/user-attachments/assets/f4ad0c7a-4a41-4ef4-87d6-ad7586dc85a4" />
+
 
 [Back to Home](/)
