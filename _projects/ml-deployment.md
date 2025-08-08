@@ -1,4 +1,4 @@
-# Flight Delay Model Deployment with FastAPI (D602)
+# Flight Delay Model Deployment with FastAPI
 
 ## Overview
 Deployed a machine learning model for flight delay prediction via FastAPI, Docker, and GitLab CI/CD.
