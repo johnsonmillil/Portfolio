@@ -26,5 +26,6 @@ Iterative debugging emphasized precise constraint alignment in linear programmin
 
 ## Artifacts
 - Repo: [GitLab](https://gitlab.com/wgu-gitlab-environment/student-repos/jmillil/d605-optimization/-/tree/Task3_Branch)
+- Code: [amazon_air_optimization.py](../amazon_air_optimization.py)
 
 [Back to Home](/)
