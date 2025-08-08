@@ -1,4 +1,4 @@
-# House Price Prediction with PCA and Linear Regression (D600)
+# House Price Prediction with PCA and Linear Regression
 
 ## Overview
 Used PCA to reduce housing features and built a linear regression model to predict prices for a real estate company.
