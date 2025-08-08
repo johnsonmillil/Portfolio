@@ -24,7 +24,8 @@ PCA eliminated multicollinearity; non-normal residuals suggest log-transforms.
 
 ## Artifacts
 - Repo: [GitLab task3-principal-component-analysis]
-- Code: [PCA_LinearRegression.py](../pca-regression/PCA_LinearRegression.py)
-- [Add scree_plot.png to assets/pca-regression/, e.g., <img src="../assets/pca-regression/scree_plot.png" alt="Scree Plot">]
+- Code: [PCA_LinearRegression.py](../Principal_Component_Analysis_and_Linear_Regression/main.py)
+   [<img width="1000" height="600" alt="scree_plot" src="https://github.com/user-attachments/assets/8229fcf0-0a2c-4fca-806f-709f311a80fc" />
+]
 
 [Back to Home](/)
