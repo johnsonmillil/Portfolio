@@ -1,5 +1,3 @@
-<img width="1200" height="600" alt="forecast_plot" src="https://github.com/user-attachments/assets/ae421b56-bfd9-4510-a0b4-698336371e52" /># Hospital Revenue Forecasting with SARIMA (D603)
-
 ## Overview
 Forecasted daily hospital revenue for Horizon Health Network using medical_clean.csv (731 days) to inform resource planning with a SARIMA model.
 
