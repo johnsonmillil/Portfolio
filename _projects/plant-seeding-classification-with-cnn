@@ -1,31 +1,28 @@
-# Amazon Air Optimization: Minimizing Transportation Costs (D605)
+# Plant Seedling Classification with CNN (OHN1)
 
 ## Overview
-Developed a linear programming model to minimize cargo shipping costs from Amazon Air hubs (Cincinnati, Fort Worth) and focus cities (Leipzig, Hyderabad, San Bernardino) to 65 fulfillment centers, satisfying capacity and demand for 133,747 tons.
+Developed a Convolutional Neural Network (CNN) to classify plant seedlings into 12 categories for automated weed detection, using a dataset of seedling images to improve agricultural efficiency.
 
 ## Approach
-- Used PuLP in Python with CBC solver.
-- Objective: Minimize total cost (hub-to-focus + hub-to-center + focus-to-center).
-- Constraints: Hub capacities (95,650/44,350 tons), focus city flow/capacity, demand equality.
-- Iterated via GitLab to fix invalid routes and verify demand with dict.get().
+- Preprocessed images: Resized to 64x64, normalized, split 70/15/15.
+- Architecture: Conv2D layers (32/64 filters), MaxPooling, Flatten, Dense (128 units, ReLU), output (softmax for 12 classes).
+- Trained with Adam optimizer, categorical cross-entropy, early stopping (epoch 10).
 
 ## Technologies
-Python, PuLP, CBC solver, GitLab CI/CD.
+Python, TensorFlow/Keras, Matplotlib.
 
 ## Results
 | Metric          | Value          |
 |-----------------|----------------|
-| Optimal Status  | Achieved       |
-| Total Cost      | $199,476.25    |
-| Demand Met      | 133,747 tons (100%) |
-
-Key shipments: Cincinnati to Leipzig (43,470 tons). All 73 constraints satisfied.
+| Test Accuracy   | 78.7%          |
+| Classes         | 12 (e.g., Fat Hen, Maize) |
 
 ## Learnings
-Iterative debugging emphasized precise constraint alignment in linear programming.
+CNN captured spatial features effectively; low resolution limited accuracy—suggest higher res for 85%+.
 
 ## Artifacts
-- Repo: [GitLab](https://gitlab.com/wgu-gitlab-environment/student-repos/jmillil/d605-optimization/-/tree/Task3_Branch)
-- Code: [amazon_air_optimization.py](../amazon_air_optimization.py)
+- Code: [/plant-seedling/plant_seedling_classification.ipynb]
+- Model: [/plant-seedling/plant_seedling_cnn.keras]
+- [<img src="/assets/plant-seedling/confusion_matrix.png" alt="Confusion Matrix">]
 
 [Back to Home](/)
