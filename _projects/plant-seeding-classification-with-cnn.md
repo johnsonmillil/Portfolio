@@ -21,7 +21,7 @@ Python, TensorFlow/Keras, Matplotlib.
 CNN captured spatial features effectively; low resolution limited accuracy—suggest higher res for 85%+.
 
 ## Artifacts
-- Code: [/plant-seedling/plant_seedling_classification.ipynb]
+- Code: [plant-seedling](../Neural_Networks/plant_seedling_classification.ipynb)
 - Model: [/plant-seedling/plant_seedling_cnn.keras]
 
 <img width="713" height="638" alt="image" src="https://github.com/user-attachments/assets/e2af2304-5086-46d3-847c-34e92c4ba8b5" />
