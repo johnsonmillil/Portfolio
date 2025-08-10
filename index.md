@@ -5,7 +5,7 @@ Welcome! I'm Johnson J. Millil, a recent MS in Data Science graduate. My project
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
 ## Featured Projects
-- [Amazon Air Optimization](../Portfolio/_projects)
+- [Amazon Air Optimization](../johnsonmillil/Portfolio/_projects)
 - [Sentiment Analysis with LSTM](#sentiment-analysis)
 - [Hospital Revenue Forecasting](#time-series-forecasting)
 - [Market Basket Analysis](#market-basket-analysis)
