@@ -1,4 +1,4 @@
-# Amazon Air Optimization: Minimizing Transportation Costs (D605)
+# Amazon Air Optimization: Minimizing Transportation Costs
 
 ## Overview
 Developed a linear programming model to minimize cargo shipping costs from Amazon Air hubs (Cincinnati, Fort Worth) and focus cities (Leipzig, Hyderabad, San Bernardino) to 65 fulfillment centers, satisfying capacity and demand for 133,747 tons.
