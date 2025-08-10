@@ -1,4 +1,4 @@
-# Market Basket Analysis for Product Associations (D599)
+# Market Basket Analysis for Product Associations
 
 ## Overview
 Identified frequent product combinations in Allias Megastore’s 441 transactions to inform marketing using Apriori.
