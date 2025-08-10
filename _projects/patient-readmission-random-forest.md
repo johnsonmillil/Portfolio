@@ -12,17 +12,14 @@ Used Random Forest to predict 30-day readmissions (ReAdmis) for Horizon Health N
 Python, Scikit-learn, Pandas.
 
 ## Results
-| Metric          | Value          |
-|-----------------|----------------|
-| Test Accuracy   | 96.8%          |
-| F1 Score        | 95.3%          |
-| AUC-ROC         | 96.6%          |
+<img width="343" height="240" alt="image" src="https://github.com/user-attachments/assets/4ae163e7-d610-4de8-99f3-ffb906024426" />
+
+<img width="346" height="229" alt="image" src="https://github.com/user-attachments/assets/76a98bf0-0216-4b4a-b526-092485242acf" />
 
 ## Learnings
 High accuracy but potential overfitting; ethical splits mitigated bias.
 
 ## Artifacts
 - Code: [Analysis.py](../Patient_Readmission_Prediction_with_Random_Forest/analysis.py)
-- [<img src="/assets/patient-readmission-rf/confusion_matrix.png" alt="Confusion Matrix">]
 
 [Back to Home](/)
