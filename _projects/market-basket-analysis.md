@@ -22,7 +22,8 @@ Strong associations for themed bundles.
 High-lift rules enable cross-selling; assumes independent transactions.
 
 ## Artifacts
-- Code: [Market_Basket_Analysis.py](../market_basket_analysis.py)
+- Code: [Market_Basket_Analysis.py](../Market_Basket_Analysis/market_basket_analysis.py)
+- [Full Repo](../Market_Basket_Analysis)
 
   <img width="1127" height="337" alt="image" src="https://github.com/user-attachments/assets/7ce77af6-5eea-40e5-a47c-7589793aca45" />
 
