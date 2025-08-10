@@ -1,4 +1,4 @@
-# Plant Seedling Classification with CNN (OHN1)
+# Plant Seedling Classification with CNN
 
 ## Overview
 Developed a Convolutional Neural Network (CNN) to classify plant seedlings into 12 categories for automated weed detection, using a dataset of seedling images to improve agricultural efficiency.
