@@ -1,0 +1,27 @@
+name: airline_data_pipeline
+
+conda_env: pipeline_env.yaml
+
+entry_points:
+  import_data:
+    command: "python scripts/import_data.py"
+
+  clean_data:
+    parameters:
+      airport:
+        type: string
+        default: "ATL"
+    command: "python scripts/clean_data.py --airport {airport}"
+
+  run_experiment:
+    parameters:
+      num_alphas:
+        type: int
+        default: 20
+    command: "python poly_regressor.py {num_alphas}"
+
+  main:
+    command: >
+      python scripts/import_data.py &&
+      python scripts/clean_data.py --airport ATL &&
+      python poly_regressor.py 20
