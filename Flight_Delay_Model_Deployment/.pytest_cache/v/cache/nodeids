@@ -1,0 +1,7 @@
+[
+  "test_api.py::test_predict_delays_invalid_airport",
+  "test_api.py::test_predict_delays_invalid_time_format",
+  "test_api.py::test_predict_delays_invalid_time_logic",
+  "test_api.py::test_predict_delays_valid_request",
+  "test_api.py::test_root_endpoint"
+]
