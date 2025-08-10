@@ -1,149 +1,73 @@
 import pandas as pd
 import numpy as np
-from statsmodels.tsa.stattools import adfuller
-from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-from statsmodels.tsa.seasonal import seasonal_decompose
-from statsmodels.tsa.statespace.sarimax import SARIMAX
-import matplotlib.pyplot as plt
-from scipy.signal import periodogram
-import os
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 
-# Ensure output directory exists
-if not os.path.exists('plots'):
-    os.makedirs('plots')
+# Step 1: Load data
+df = pd.read_csv('medical_clean.csv')
+print(df.head())
 
-# Load and prepare data
-try:
-    df = pd.read_csv('medical_clean.csv')
-except FileNotFoundError:
-    print("Error: 'medical_clean.csv' not found.")
-    exit(1)
+# Step 2: Preprocess data
+df['ReAdmis'] = df['ReAdmis'].map({'Yes': 1, 'No': 0})
+df['HighBlood'] = df['HighBlood'].map({'Yes': 1, 'No': 0})
+print("Complication_risk values:", df['Complication_risk'].unique())
+df = pd.get_dummies(df, columns=['Complication_risk'], drop_first=True)
+for col in ['Complication_risk_Medium', 'Complication_risk_High']:
+    if col not in df.columns:
+        df[col] = 0
+# Select only relevant variables
+relevant_cols = ['ReAdmis', 'Initial_days', 'HighBlood', 'Complication_risk_Medium', 'Complication_risk_High']
+df_cleaned = df[relevant_cols]
+df_cleaned.to_csv('medical_cleaned.csv', index=False)
+print("Cleaned data saved as medical_cleaned.csv")
 
-df['Date'] = pd.date_range(start='2023-05-19', periods=len(df), freq='D')
-df.set_index('Date', inplace=True)
-df.index.freq = 'D'
-df.to_csv('medical_time_series.csv')
+# Step 3: Split data
+X = df_cleaned[['Initial_days', 'HighBlood', 'Complication_risk_Medium', 'Complication_risk_High']]
+y = df_cleaned['ReAdmis']
+X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.3, random_state=42)
+X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=42)
+print(f"Train size: {len(X_train)}, Val size: {len(X_val)}, Test size: {len(X_test)}")
+# Save split datasets
+train_df = pd.concat([X_train, y_train], axis=1)
+val_df = pd.concat([X_val, y_val], axis=1)
+test_df = pd.concat([X_test, y_test], axis=1)
+train_df.to_csv('train.csv', index=False)
+val_df.to_csv('val.csv', index=False)
+test_df.to_csv('test.csv', index=False)
+print("Split datasets saved as train.csv, val.csv, test.csv")
 
-# D1: Line Graph Visualization
-plt.figure(figsize=(10, 6))
-plt.plot(df.index, df['Revenue'], label='Daily Revenue')
-plt.title('Daily Hospital Revenue Time Series')
-plt.xlabel('Date')
-plt.ylabel('Revenue (Millions of Dollars)')
-plt.legend()
-plt.grid(True)
-plt.savefig('plots/time_series_plot.png')
-plt.close()
-print("D1: Line graph saved as 'plots/time_series_plot.png'")
-print("Interpretation: The line graph shows a slight upward trend with potential weekly fluctuations, suggesting seasonality.")
+# Step 4: Initial model
+model = RandomForestClassifier(random_state=42)
+model.fit(X_train, y_train)
+y_pred = model.predict(X_val)
+initial_metrics = {
+    'Accuracy': accuracy_score(y_val, y_pred),
+    'Precision': precision_score(y_val, y_pred),
+    'Recall': recall_score(y_val, y_pred),
+    'F1': f1_score(y_val, y_pred),
+    'AUC-ROC': roc_auc_score(y_val, y_pred)
+}
+print("Initial Model Metrics:")
+for metric, value in initial_metrics.items():
+    print(f"{metric}: {value:.3f}")
 
-# D2-D3: Time Step and Stationarity
-print("\nD2-D3: Time Step and Stationarity")
-print("Time Step: Daily data with no gaps, sequence length is 731 days.")
-result = adfuller(df['Revenue'].dropna())
-print(f"ADF Statistic: {result[0]:.3f}, p-value: {result[1]:.3f}")
-if result[1] >= 0.05:
-    df['Revenue_diff'] = df['Revenue'].diff().dropna()
-    result_diff = adfuller(df['Revenue_diff'].dropna())
-    print(f"Differenced ADF Statistic: {result_diff[0]:.3f}, p-value: {result_diff[1]:.3f}")
+# Step 5: Hyperparameter tuning
+param_grid = {'n_estimators': [50, 100, 200], 'max_depth': [10, 20, None]}
+grid = GridSearchCV(RandomForestClassifier(random_state=42), param_grid, cv=5)
+grid.fit(X_train, y_train)
+best_model = grid.best_estimator_
+print(f"Best parameters: {grid.best_params_}")
 
-# E1: Time Series Analysis and Visualizations
-print("\nE1: Time Series Analysis and Visualizations")
-
-# ACF and PACF
-plt.figure(figsize=(12, 6))
-plt.subplot(121)
-plot_acf(df['Revenue'].dropna(), lags=30, ax=plt.gca())
-plt.title('Autocorrelation Function (ACF)')
-plt.subplot(122)
-plot_pacf(df['Revenue'].dropna(), lags=30, ax=plt.gca())
-plt.title('Partial Autocorrelation Function (PACF)')
-plt.savefig('plots/acf_pacf_plot.png')
-plt.close()
-
-# Spectral Density
-f, Pxx = periodogram(df['Revenue'])
-plt.figure(figsize=(10, 6))
-plt.semilogy(f, Pxx)
-plt.title('Spectral Density')
-plt.xlabel('Frequency')
-plt.ylabel('Power Spectral Density')
-plt.savefig('plots/spectral_plot.png')
-plt.close()
-
-# Decomposition
-decomposition = seasonal_decompose(df['Revenue'], model='additive', period=7)
-fig = decomposition.plot()
-fig.set_size_inches(10, 8)
-plt.savefig('plots/decomposition_plot.png')
-plt.close()
-
-# Residuals
-residuals = decomposition.resid
-plt.figure(figsize=(10, 6))
-plt.plot(residuals, label='Residuals')
-plt.title('Residuals of Decomposed Time Series')
-plt.xlabel('Date')
-plt.ylabel('Residuals')
-plt.legend()
-plt.grid(True)
-plt.savefig('plots/residuals_plot.png')
-plt.close()
-
-# Interpretations
-print("Interpretation of Visualizations:")
-print("- ACF/PACF: The ACF shows significant lags up to 7 days, indicating weekly seasonality. The PACF cuts off after lag 1, suggesting an AR(1) component.")
-print("- Spectral Density: Peaks at low frequencies confirm a strong 7-day seasonal pattern.")
-print("- Decomposition: The trend shows a slight upward movement, a 7-day seasonal cycle, and random residuals.")
-print("- Residuals: Random pattern supports model adequacy.")
-
-# E2-E3: SARIMA Modeling and Forecasting
-print("\nE2-E3: SARIMA Modeling and Forecasting")
-train_size = int(len(df) * 0.8)
-train, test = df['Revenue'][:train_size], df['Revenue'][train_size:]
-
-# SARIMA model on training data
-model = SARIMAX(train, order=(1,1,1), seasonal_order=(1,0,1,7))
-fit = model.fit()
-print("SARIMA(1,1,1)(1,0,1,7) Summary on Training Data:")
-print(fit.summary())
-
-# Forecast for test set
-test_forecast = fit.forecast(steps=len(test))
-mse = ((test - test_forecast) ** 2).mean()
-print(f"MSE on Test Set: {mse:.2f}")
-
-# Fit model on full dataset for true future forecast
-full_model = SARIMAX(df['Revenue'], order=(1,1,1), seasonal_order=(1,0,1,7))
-full_fit = full_model.fit()
-forecast_steps = 90
-future_forecast = full_fit.forecast(steps=forecast_steps)
-future_index = pd.date_range(start=df.index[-1] + pd.Timedelta(days=1), periods=forecast_steps, freq='D')
-print("Future Forecast (90 days starting May 19, 2025, first 5 days):")
-print(pd.Series(future_forecast, index=future_index).head())
-
-# E4: Output and Calculations
-print("\nE4: Output and Calculations")
-print(f"The SARIMA(1,1,1)(1,0,1,7) model has an AIC of {fit.aic:.2f} and an MSE of {mse:.2f} on the test set, indicating good fit and predictive accuracy.")
-print("Significant coefficients: ar.L1 = 0.4589, sigma2 = 0.1948 (Note: Seasonal terms are not significant, suggesting weak seasonality).")
-
-# F1: Results
-print("\nF1: Results")
-print(f"The SARIMA model achieved an MSE of {mse:.2f} on the test set, suggesting reasonable accuracy. The future forecast predicts revenue trends for the next 90 days, averaging {future_forecast.mean():.2f} million dollars.")
-
-# F2: Update visualization
-plt.figure(figsize=(12, 6))
-plt.plot(df.index, df['Revenue'], label='Historical Data')
-plt.plot(test.index, test_forecast, label='Forecast on Test', color='orange')
-plt.plot(future_index, future_forecast, label='Future Forecast', color='green')
-conf_int = full_fit.get_forecast(steps=forecast_steps).conf_int()
-plt.fill_between(future_index, conf_int.iloc[:, 0], conf_int.iloc[:, 1], color='green', alpha=0.3, label='95% CI')
-plt.title('SARIMA Forecast of Daily Revenue')
-plt.xlabel('Date')
-plt.ylabel('Revenue (Millions of Dollars)')
-plt.legend()
-plt.grid(True)
-plt.savefig('plots/forecast_plot.png')
-plt.close()
-print("\nF2: Annotated Visualization")
-print(f"The orange line shows the forecast matching the test set, with an MSE of {mse:.2f}. The green line and shaded area represent the 90-day future forecast starting May 19, 2025, with 95% confidence intervals.")
+# Step 6: Optimized model
+y_pred_opt = best_model.predict(X_test)
+optimized_metrics = {
+    'Accuracy': accuracy_score(y_test, y_pred_opt),
+    'Precision': precision_score(y_test, y_pred_opt),
+    'Recall': recall_score(y_test, y_pred_opt),
+    'F1': f1_score(y_test, y_pred_opt),
+    'AUC-ROC': roc_auc_score(y_test, y_pred_opt)
+}
+print("Optimized Model Metrics:")
+for metric, value in optimized_metrics.items():
+    print(f"{metric}: {value:.3f}")
