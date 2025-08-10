@@ -12,8 +12,10 @@ Used Random Forest to predict 30-day readmissions (ReAdmis) for Horizon Health N
 Python, Scikit-learn, Pandas.
 
 ## Results
-<img width="343" height="240" alt="image" src="https://github.com/user-attachments/assets/4ae163e7-d610-4de8-99f3-ffb906024426" />
-<img width="343" height="240" alt="image" src="https://github.com/user-attachments/assets/76a98bf0-0216-4b4a-b526-092485242acf" />
+<img width="343" height="240" alt="image" src="https://github.com/user-attachments/assets/4ae163e7-d610-4de8-99f3-ffb906024426" />/n
+
+<img width="346" height="229" alt="image" src="https://github.com/user-attachments/assets/2421aef1-961d-412e-a192-99e4de536b7b" />
+
 
 ## Learnings
 High accuracy but potential overfitting; ethical splits mitigated bias.
