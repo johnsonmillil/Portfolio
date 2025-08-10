@@ -25,7 +25,7 @@ Key shipments: Cincinnati to Leipzig (43,470 tons). All 73 constraints satisfied
 Iterative debugging emphasized precise constraint alignment in linear programming.
 
 ## Artifacts
-- Repo: [GitLab](https://gitlab.com/wgu-gitlab-environment/student-repos/jmillil/d605-optimization/-/tree/Task3_Branch)
-- Code: [amazon_air_optimization.py](../amazon_air_optimization.py)
+- Code: [amazon_air_optimization.py](../Amazon_Air_Optimization/amazon_air_optimization.py)
+- [Full Repo](../Amazon_Air_Optimization)
 
 [Back to Home](/)
