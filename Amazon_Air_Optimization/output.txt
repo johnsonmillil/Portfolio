@@ -1,0 +1,140 @@
+Status: Optimal
+Total Cost: $199,476.25
+
+Non-zero Decision Variables:
+x_('Cincinnati',_'Leipzig') = 43,470.00 tons
+y_('Cincinnati',_'Allentown') = 420.00 tons
+y_('Cincinnati',_'Atlanta') = 3,000.00 tons
+y_('Cincinnati',_'Barcelona') = 2,800.00 tons
+y_('Cincinnati',_'Cagliari') = 90.00 tons
+y_('Cincinnati',_'Castle_Donington') = 30.00 tons
+y_('Cincinnati',_'Catania') = 185.00 tons
+y_('Cincinnati',_'Charlotte') = 900.00 tons
+y_('Cincinnati',_'Cologne') = 640.00 tons
+y_('Cincinnati',_'Dallas') = 3,300.00 tons
+y_('Cincinnati',_'Fort_Wayne') = 200.00 tons
+y_('Cincinnati',_'Hanover') = 180.00 tons
+y_('Cincinnati',_'Hartford') = 540.00 tons
+y_('Cincinnati',_'Kansas_City') = 975.00 tons
+y_('Cincinnati',_'Katowice') = 170.00 tons
+y_('Cincinnati',_'Lakeland') = 185.00 tons
+y_('Cincinnati',_'London') = 6,700.00 tons
+y_('Cincinnati',_'Madrid') = 3,700.00 tons
+y_('Cincinnati',_'Miami') = 3,400.00 tons
+y_('Cincinnati',_'Milan') = 800.00 tons
+y_('Cincinnati',_'Mobile') = 190.00 tons
+y_('Cincinnati',_'Nashville') = 650.00 tons
+y_('Cincinnati',_'New_Orleans') = 550.00 tons
+y_('Cincinnati',_'New_York') = 11,200.00 tons
+y_('Cincinnati',_'Paris') = 6,500.00 tons
+y_('Cincinnati',_'Rome') = 1,700.00 tons
+y_('Cincinnati',_'Sacramento') = 1,100.00 tons
+y_('Cincinnati',_'San_Juan') = 42.00 tons
+y_('Cincinnati',_'South_Bend') = 173.00 tons
+y_('Cincinnati',_'Spokane') = 260.00 tons
+y_('Cincinnati',_'Tampa') = 1,600.00 tons
+y_('Fort_Worth',_'Albuquerque') = 450.00 tons
+y_('Fort_Worth',_'Anchorage') = 175.00 tons
+y_('Fort_Worth',_'Austin') = 975.00 tons
+y_('Fort_Worth',_'Baltimore') = 1,300.00 tons
+y_('Fort_Worth',_'Chicago') = 5,100.00 tons
+y_('Fort_Worth',_'Denver') = 1,500.00 tons
+y_('Fort_Worth',_'Des_Moines') = 300.00 tons
+y_('Fort_Worth',_'Fairbanks') = 38.00 tons
+y_('Fort_Worth',_'Honolulu') = 500.00 tons
+y_('Fort_Worth',_'Houston') = 3,300.00 tons
+y_('Fort_Worth',_'Kahului') = 16.00 tons
+y_('Fort_Worth',_'Kona') = 63.00 tons
+y_('Fort_Worth',_'Los_Angeles') = 7,200.00 tons
+y_('Fort_Worth',_'Manchester') = 100.00 tons
+y_('Fort_Worth',_'Minneapolis') = 1,700.00 tons
+y_('Fort_Worth',_'Omaha') = 480.00 tons
+y_('Fort_Worth',_'Ontario') = 100.00 tons
+y_('Fort_Worth',_'Phoenix') = 2,400.00 tons
+y_('Fort_Worth',_'Pittsburgh') = 1,000.00 tons
+y_('Fort_Worth',_'Portland') = 1,200.00 tons
+y_('Fort_Worth',_'Richmond') = 600.00 tons
+y_('Fort_Worth',_'Riverside') = 1,200.00 tons
+y_('Fort_Worth',_'Rockford') = 172.00 tons
+y_('Fort_Worth',_'San_Antonio') = 1,100.00 tons
+y_('Fort_Worth',_'San_Francisco') = 1,900.00 tons
+y_('Fort_Worth',_'San_Juan') = 1,058.00 tons
+y_('Fort_Worth',_'Seattle') = 2,000.00 tons
+y_('Fort_Worth',_'St_Louis') = 1,200.00 tons
+y_('Fort_Worth',_'Stockton') = 240.00 tons
+y_('Fort_Worth',_'Toledo') = 290.00 tons
+y_('Fort_Worth',_'Wichita') = 290.00 tons
+y_('Fort_Worth',_'Wilmington') = 150.00 tons
+z_('Leipzig',_'Bengaluru') = 9,100.00 tons
+z_('Leipzig',_'Coimbatore') = 570.00 tons
+z_('Leipzig',_'Delhi') = 19,000.00 tons
+z_('Leipzig',_'Mumbai') = 14,800.00 tons
+
+Demand Satisfaction Check:
+Center Paris: Demand = 6,500.00, Supplied = 6,500.00
+Center Cologne: Demand = 640.00, Supplied = 640.00
+Center Hanover: Demand = 180.00, Supplied = 180.00
+Center Bengaluru: Demand = 9,100.00, Supplied = 9,100.00
+Center Coimbatore: Demand = 570.00, Supplied = 570.00
+Center Delhi: Demand = 19,000.00, Supplied = 19,000.00
+Center Mumbai: Demand = 14,800.00, Supplied = 14,800.00
+Center Cagliari: Demand = 90.00, Supplied = 90.00
+Center Catania: Demand = 185.00, Supplied = 185.00
+Center Milan: Demand = 800.00, Supplied = 800.00
+Center Rome: Demand = 1,700.00, Supplied = 1,700.00
+Center Katowice: Demand = 170.00, Supplied = 170.00
+Center Barcelona: Demand = 2,800.00, Supplied = 2,800.00
+Center Madrid: Demand = 3,700.00, Supplied = 3,700.00
+Center Castle_Donington: Demand = 30.00, Supplied = 30.00
+Center London: Demand = 6,700.00, Supplied = 6,700.00
+Center Mobile: Demand = 190.00, Supplied = 190.00
+Center Anchorage: Demand = 175.00, Supplied = 175.00
+Center Fairbanks: Demand = 38.00, Supplied = 38.00
+Center Phoenix: Demand = 2,400.00, Supplied = 2,400.00
+Center Los_Angeles: Demand = 7,200.00, Supplied = 7,200.00
+Center Ontario: Demand = 100.00, Supplied = 100.00
+Center Riverside: Demand = 1,200.00, Supplied = 1,200.00
+Center Sacramento: Demand = 1,100.00, Supplied = 1,100.00
+Center San_Francisco: Demand = 1,900.00, Supplied = 1,900.00
+Center Stockton: Demand = 240.00, Supplied = 240.00
+Center Denver: Demand = 1,500.00, Supplied = 1,500.00
+Center Hartford: Demand = 540.00, Supplied = 540.00
+Center Miami: Demand = 3,400.00, Supplied = 3,400.00
+Center Lakeland: Demand = 185.00, Supplied = 185.00
+Center Tampa: Demand = 1,600.00, Supplied = 1,600.00
+Center Atlanta: Demand = 3,000.00, Supplied = 3,000.00
+Center Honolulu: Demand = 500.00, Supplied = 500.00
+Center Kahului: Demand = 16.00, Supplied = 16.00
+Center Kona: Demand = 63.00, Supplied = 63.00
+Center Chicago: Demand = 5,100.00, Supplied = 5,100.00
+Center Rockford: Demand = 172.00, Supplied = 172.00
+Center Fort_Wayne: Demand = 200.00, Supplied = 200.00
+Center South_Bend: Demand = 173.00, Supplied = 173.00
+Center Des_Moines: Demand = 300.00, Supplied = 300.00
+Center Wichita: Demand = 290.00, Supplied = 290.00
+Center New_Orleans: Demand = 550.00, Supplied = 550.00
+Center Baltimore: Demand = 1,300.00, Supplied = 1,300.00
+Center Minneapolis: Demand = 1,700.00, Supplied = 1,700.00
+Center Kansas_City: Demand = 975.00, Supplied = 975.00
+Center St_Louis: Demand = 1,200.00, Supplied = 1,200.00
+Center Omaha: Demand = 480.00, Supplied = 480.00
+Center Manchester: Demand = 100.00, Supplied = 100.00
+Center Albuquerque: Demand = 450.00, Supplied = 450.00
+Center New_York: Demand = 11,200.00, Supplied = 11,200.00
+Center Charlotte: Demand = 900.00, Supplied = 900.00
+Center Toledo: Demand = 290.00, Supplied = 290.00
+Center Wilmington: Demand = 150.00, Supplied = 150.00
+Center Portland: Demand = 1,200.00, Supplied = 1,200.00
+Center Allentown: Demand = 420.00, Supplied = 420.00
+Center Pittsburgh: Demand = 1,000.00, Supplied = 1,000.00
+Center San_Juan: Demand = 1,100.00, Supplied = 1,100.00
+Center Nashville: Demand = 650.00, Supplied = 650.00
+Center Austin: Demand = 975.00, Supplied = 975.00
+Center Dallas: Demand = 3,300.00, Supplied = 3,300.00
+Center Houston: Demand = 3,300.00, Supplied = 3,300.00
+Center San_Antonio: Demand = 1,100.00, Supplied = 1,100.00
+Center Richmond: Demand = 600.00, Supplied = 600.00
+Center Seattle: Demand = 2,000.00, Supplied = 2,000.00
+Center Spokane: Demand = 260.00, Supplied = 260.00
+
+Total Demand Met: 133,747.00 tons (Expected: 133,747.00 tons)
