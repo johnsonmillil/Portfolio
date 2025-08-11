@@ -5,17 +5,19 @@ Welcome! I'm Johnson J. Millil, a recent MS in Data Science graduate. My project
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
 ## Featured Projects
-- [Plant Seedling Classification with CNN](#plant-seedling-cnn)
-- [Sentiment Analysis with LSTM](#sentiment-analysis)
-- [Patient Readmission Prediction with Random Forest](#patient-readmission-rf)
-- [Hospital Revenue Forecasting](#time-series-forecasting)
-- [Flight Delay Prediction ML Pipeline](#flight-delay-pipeline)
 - [Amazon Air Optimization](#amazon-air-optimization)
 - [Patient Characteristics Clustering](#patient-clustering)
-- [Hospital Readmission Dashboard](#hospital-dashboard)
-- [NoSQL MongoDB for Medical/Fitness Data](#medical-nosql)
-- [Relational DB Design for EcoMart](#ecomart-db)
 - [Flight Delay Model Deployment](#ml-deployment)
+- [Flight Delay Prediction ML Pipeline](#flight-delay-pipeline)
+- [Hospital Readmission Dashboard](#hospital-dashboard)
+- [Market Basket Analysis](#market-basket-analysis)
+- [NoSQL MongoDB for Medical/Fitness Data](#medical-nosql)
+- [Patient Readmission Prediction with Random Forest](#patient-readmission-rf)
+- [Plant Seedling Classification with CNN](#plant-seedling-cnn)
+- [House Price Prediction with PCA](#pca-linear-regression)
+- [Relational DB Design for EcoMart](#ecomart-db)
+- [Sentiment Analysis with LSTM](#sentiment-analysis)
+- [Hospital Revenue Forecasting](#time-series-forecasting)
 - [Timetrak: Time-Tracking App](#timetrak)
 
 ## Skills
