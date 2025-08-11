@@ -5,24 +5,30 @@ Welcome! I'm Johnson J. Millil, a recent MS in Data Science graduate. My project
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
 ## Featured Projects
-- [Amazon Air Optimization](#amazon-air-optimization)
+- [Plant Seedling Classification with CNN](#plant-seedling-cnn)
 - [Sentiment Analysis with LSTM](#sentiment-analysis)
+- [Patient Readmission Prediction with Random Forest](#patient-readmission-rf)
 - [Hospital Revenue Forecasting](#time-series-forecasting)
-- [Market Basket Analysis](#market-basket-analysis)
-- [House Price Prediction with PCA](#pca-linear-regression)
+- [Flight Delay Prediction ML Pipeline](#flight-delay-pipeline)
+- [Amazon Air Optimization](#amazon-air-optimization)
+- [Patient Characteristics Clustering](#patient-clustering)
+- [Hospital Readmission Dashboard](#hospital-dashboard)
+- [NoSQL MongoDB for Medical/Fitness Data](#medical-nosql)
+- [Relational DB Design for EcoMart](#ecomart-db)
 - [Flight Delay Model Deployment](#ml-deployment)
 - [Timetrak: Time-Tracking App](#timetrak)
 
 ## Skills
 - **Languages**: Python, JavaScript, SQL
-- **Data Science/ML Libraries**: Pandas, NumPy, Scikit-learn, TensorFlow, Keras, Statsmodels, mlxtend, PuLP
+- **Data Science/ML Libraries**: Pandas, NumPy, Scikit-learn, TensorFlow, Keras, Statsmodels, mlxtend, PuLP, MLflow, RandomForestClassifier
+- **Deep Learning**: CNN, LSTM
 - **Full-Stack Frameworks**: Node.js, Express, React, React Router
 - **Frontend Tools**: Vite, Chart.js, react-csv, Axios, Popper.js
-- **Databases**: MySQL (RDS), MongoDB
+- **Databases**: MySQL (RDS), MongoDB, PostgreSQL
 - **Visualization**: Matplotlib, Seaborn, Tableau
-- **Deployment/DevOps**: Docker, FastAPI, AWS (EC2, RDS, S3, Elastic Beanstalk/Lambda), GitLab CI/CD, GitHub
-- **Domains**: Machine Learning (LSTM, SARIMA, Linear Regression), NLP, Time Series Forecasting, Optimization (Linear Programming), Market Basket Analysis, Full-Stack Web Development, Cloud Deployment
-- **Other**: Jupyter Notebook, Faker (mock data), ESLint, JWT/Bcrypt (authentication), CORS
+- **Deployment/DevOps**: Docker, FastAPI, AWS (EC2, RDS, S3, Elastic Beanstalk/Lambda), GitLab CI/CD, GitHub, MLflow
+- **Domains**: Machine Learning (LSTM, SARIMA, Linear/Logistic Regression, Random Forest, K-means Clustering, Polynomial Regression), NLP, Time Series Forecasting, Optimization (Linear Programming), Market Basket Analysis, Computer Vision (CNN), Full-Stack Web Development, Data Storytelling, Relational/NoSQL Database Design, Cloud Deployment
+- **Other**: Jupyter Notebook, Faker (mock data), ESLint, JWT/Bcrypt (authentication), CORS, DB Indexing/Optimization
 
 ## About Me
-Passionate about solving complex problems through data-driven insights, efficient algorithms, and scalable applications. Experienced in end-to-end workflows, from data preprocessing to model deployment and web app development.
+I am Passionate about solving complex problems through data-driven insights, efficient algorithms, and scalable applications. Experienced in end-to-end workflows, from data preprocessing to model deployment and web app development.
