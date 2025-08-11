@@ -24,7 +24,7 @@ Scalability via sharding/replication; privacy with encryption.
 ## Artifacts
 - Schema: [/ecomart-db/schema.sql]
 - Queries: [/ecomart-db/queries.sql]
-- Full Repo: [Relational_DB_Design_for_Ecomart](../Relational_DB_Design_for_Ecomart)
+- Full Repo: [Relational DB Design for Ecomart](../Relational_DB_Design_for_Ecomart)
 - [<img src="/assets/ecomart-db/query1.png" alt="Top-Selling Query">]
 
 [Back to Home](/)
