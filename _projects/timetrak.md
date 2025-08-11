@@ -22,9 +22,6 @@ Node.js, Express, React, MySQL2, AWS (EC2, RDS), Chart.js, react-csv, JWT, Bcryp
 Mastered secure database connections (RDS), modular API routing, and integrating frontend builds with backend. Future extensions could include ML for anomaly detection in time logs.
 
 ## Artifacts
-- Code: [server.js](/timetrak/server.js), [connection.js](/timetrak/connection.js), [vite.config.js](/timetrak/vite.config.js)
-- Screenshots: [<img src="/assets/timetrak/dashboard.png" alt="Dashboard">, <img src="/assets/timetrak/report-chart.png" alt="Report Chart">]
-- Video: [Demo video, upload to assets/timetrak/demo.mp4 if available]
-- Backend/Frontend Files: [Timetrak folder](/_Timetrak)
+- Full Repo: [Timetrak](/_Timetrak)
 
 [Back to Home](/)
