@@ -24,6 +24,7 @@ Flexibility for semi-structured data; security with RBAC/encryption.
 ## Artifacts
 - Full Report: [Report](../NoSQL_MongoDB_for_Medical_and_Fitness_Data)
 - Queries:
+
   Patients using Specific Trackers:
 <img width="341" height="482" alt="image" src="https://github.com/user-attachments/assets/71560d37-3130-4128-8399-47bef86a831b" />
 <img width="314" height="483" alt="image" src="https://github.com/user-attachments/assets/0a7acb0f-884e-4471-81ff-2a5e151f32a4" />
