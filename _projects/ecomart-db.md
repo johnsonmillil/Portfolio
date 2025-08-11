@@ -1,4 +1,4 @@
-# Relational DB Design for EcoMart (D597 Task 1)
+# Relational DataBase Design for EcoMart (D597 Task 1)
 
 ## Overview
 Designed a PostgreSQL relational DB for EcoMart to manage products, orders, reviews, addressing sales tracking, review analysis, scalability.
