@@ -24,8 +24,9 @@ Visuals: Forecast plot with 95% CI, decomposition.
 Weak seasonality suggests model refinement; stationarity assumptions held.
 
 ## Artifacts
-- Repo: [GitLab task3_branch]
-- Code: [analysis.py](../analysis.py)
+- Code: [analysis.py](../Time_Series_Modeling_for_Hospital_Revenue_Forecasting/analysis.py)
+- Full Repo: [Time_Series_Modeling_for_Hospital_Revenue_Forecasting](../Time_Series_Modeling_for_Hospital_Revenue_Forecasting)
+
 <img width="1200" height="600" alt="forecast_plot" src="https://github.com/user-attachments/assets/f4ad0c7a-4a41-4ef4-87d6-ad7586dc85a4" />
 
 
