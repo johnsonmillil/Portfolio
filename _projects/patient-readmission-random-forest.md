@@ -22,5 +22,6 @@ High accuracy but potential overfitting; ethical splits mitigated bias.
 
 ## Artifacts
 - Code: [Analysis.py](../Patient_Readmission_Prediction_with_Random_Forest/analysis.py)
+- Full Repo: [Patient_Readmission_Prediction_with_Random_Forest](../Patient_Readmission_Prediction_with_Random_Forest)
 
 [Back to Home](/)
