@@ -1,4 +1,4 @@
-# Relational DataBase Design for EcoMart (D597 Task 1)
+# Relational Database Design for EcoMart (D597 Task 1)
 
 ## Overview
 Designed a PostgreSQL relational DB for EcoMart to manage products, orders, reviews, addressing sales tracking, review analysis, scalability.
@@ -24,7 +24,7 @@ Scalability via sharding/replication; privacy with encryption.
 ## Artifacts
 - Schema: [/ecomart-db/schema.sql]
 - Queries: [/ecomart-db/queries.sql]
-- Full Repo: [Relational DB Design for Ecomart](../Relational_DB_Design_for_Ecomart)
+- Full Repo: [Relational Database Design for Ecomart](../Relational_DB_Design_for_Ecomart)
 - [<img src="/assets/ecomart-db/query1.png" alt="Top-Selling Query">]
 
 [Back to Home](/)
