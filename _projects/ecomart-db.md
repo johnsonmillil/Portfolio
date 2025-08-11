@@ -28,7 +28,8 @@ Scalability via sharding/replication; privacy with encryption.
 
 - Datamodel:
 
-  <img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/a403115c-e070-42c5-8304-93582d4a4fc4" />
+  <img width="741" height="471" alt="image" src="https://github.com/user-attachments/assets/675b3bdd-a97c-4358-81a7-ec908d3f6a5b" />
+
 
 
 [Back to Home](/)
