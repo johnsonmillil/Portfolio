@@ -26,6 +26,6 @@ Iterative debugging emphasized precise constraint alignment in linear programmin
 
 ## Artifacts
 - Code: [amazon_air_optimization.py](../Amazon_Air_Optimization/amazon_air_optimization.py)
-- [Full Repo](../Amazon_Air_Optimization)
+- Full Repo: [Amazon_Air_Optimization](../Amazon_Air_Optimization)
 
 [Back to Home](/)
