@@ -22,7 +22,7 @@ MongoDB, Python (pymongo).
 Flexibility for semi-structured data; security with RBAC/encryption.
 
 ## Artifacts
-- Full Repo: [Report](../NoSQL_MongoDB_for_Medical_and_Fitness_Data)
+- Full Repo: [NoSQL MongoDB for Medical and Fitness Data](../NoSQL_MongoDB_for_Medical_and_Fitness_Data)
 - Queries:
 
   Patients using Specific Trackers:
