@@ -22,7 +22,7 @@ CNN captured spatial features effectively; low resolution limited accuracy—sug
 
 ## Artifacts
 - Code: [Plant Seedling Classification](../Neural_Networks/plant_seedling_classification.ipynb)
-- Model: [Model](../Neural_Networks/plant_seedling_cnn.keras)
+- Model: [Full Repo](../Neural_Networks)
 
 <img width="713" height="638" alt="image" src="https://github.com/user-attachments/assets/e2af2304-5086-46d3-847c-34e92c4ba8b5" />
 
