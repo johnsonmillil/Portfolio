@@ -1,4 +1,4 @@
-# Patient Characteristics Clustering (D603 Task 2)
+# Patient Characteristics Clustering
 
 ## Overview
 Applied K-means clustering to segment patients in medical_clean.csv based on Initial_days, TotalCharge, Additional_charges for cost-effective care at Horizon Health Network.
