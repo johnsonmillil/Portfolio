@@ -22,8 +22,9 @@ Python, Pandas, Scikit-learn, MLflow.
 MLflow ensured reproducibility; challenges with large data and env mismatches fixed via explicit experiment setting.
 
 ## Artifacts
-- Code: [main.ipynb](../Flight_Delay_Prediction_ML_Pipeline/poly_regressor_Python_1.0.0.ipynb), [clean_data.py](../Flight_Delay_Prediction_ML_Pipeline/scripts/clean_data.py), [import_data.py](../Flight_Delay_Prediction_ML_Pipeline/scripts/import_data.py)
 - Full Repo: [Flight_Delay_Prediction_ML_Pipeline](../Flight_Delay_Prediction_ML_Pipeline)
+- Code: [main.ipynb](../Flight_Delay_Prediction_ML_Pipeline/poly_regressor_Python_1.0.0.ipynb), [clean_data.py](../Flight_Delay_Prediction_ML_Pipeline/scripts/clean_data.py), [import_data.py](../Flight_Delay_Prediction_ML_Pipeline/scripts/import_data.py)
+
 <img width="585" height="644" alt="image" src="https://github.com/user-attachments/assets/48ab49dc-d8ff-4221-a0b5-249fa4c34aee" />
 
 <img width="585" height="644" alt="image" src="https://github.com/user-attachments/assets/d33c0bcf-9f4c-46df-9d96-9f7f97b426c0" />
