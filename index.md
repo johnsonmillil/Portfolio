@@ -6,19 +6,19 @@ Welcome! I'm Johnson J. Millil, a recent MS in Data Science graduate. My project
 
 ## Featured Projects
 - [Amazon Air Optimization](/_projects/amazon-air.md)
-- [Patient Characteristics Clustering](/Clustering_Techniques_Patient_Characteristics)
-- [Flight Delay Model Deployment](/Flight_Delay_Model_Deployment)
-- [Flight Delay Prediction ML Pipeline](/Flight_Delay_Prediction_ML_Pipeline)
-- [Hospital Readmission Dashboard](/Hospital_Readmission_Analysis_and_Interactive_Dashboard)
-- [Market Basket Analysis](/Market_Basket_Analysis)
-- [NoSQL MongoDB for Medical/Fitness Data](/NoSQL_MongoDB_for_Medical_and_Fitness_Data)
-- [Patient Readmission Prediction with Random Forest](/Patient_Readmission_Prediction_with_Random_Forest)
-- [Plant Seedling Classification with CNN](/Plant_Seedling_Classification_with_CNN)
-- [House Price Prediction with PCA](/Principal_Component_Analysis_and_Linear_Regression)
-- [Relational DB Design for EcoMart](/Relational_Database_Design_for_Ecomart)
-- [Sentiment Analysis with LSTM](/Sentiment_Analysis_LSTM_Neural_Networks)
-- [Hospital Revenue Forecasting](/Time_Series_Modeling_for_Hospital_Revenue_Forecasting_analysis)
-- [Timetrak: Time-Tracking App](/_Timetrak)
+- [Patient Characteristics Clustering](/_projects/patient_clustering.md)
+- [Flight Delay Model Deployment](/_projects/flight_delay_ml-deployment.md)
+- [Flight Delay Prediction ML Pipeline](/_projects/flight-delay-pipeline.md)
+- [Hospital Readmission Dashboard](/_projects/hospital_dashboard.md)
+- [Market Basket Analysis](/_projects/market-basket-analysis.md)
+- [NoSQL MongoDB for Medical/Fitness Data](/_projects/medical-nosql.md)
+- [Patient Readmission Prediction with Random Forest](/_projects/patient-readmission-random-forest.md)
+- [Plant Seedling Classification with CNN](/_projects/plant-seeding-classification-with-cnn.md)
+- [House Price Prediction with PCA](/_projects/pca-linear-regression.md)
+- [Relational DB Design for EcoMart](/_projects/ecomart-db.md)
+- [Sentiment Analysis with LSTM](/_projects/sentiment-analysis-with-LSTM-neural-networks.md)
+- [Hospital Revenue Forecasting](/_projects/time-series-forecasting.md)
+- [Timetrak: Time-Tracking App](/_projects/timetrak.md)
 
 ## Skills
 - **Languages**: Python, JavaScript, SQL
