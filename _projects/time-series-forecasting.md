@@ -1,4 +1,4 @@
-# Hospital Revenue Forecasting with SARIMA (D603)
+# Hospital Revenue Forecasting with SARIMA
 
 ## Overview
 Forecasted daily hospital revenue for Horizon Health Network using medical_clean.csv (731 days) to inform resource planning with a SARIMA model.
