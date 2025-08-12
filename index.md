@@ -5,20 +5,20 @@ Welcome! I'm Johnson J. Millil, a recent MS in Data Science graduate. My project
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
 ## Featured Projects
-- [Amazon Air Optimization](/Amazon_Air_Optimization)
-- [Patient Characteristics Clustering](#patient-clustering)
-- [Flight Delay Model Deployment](#ml-deployment)
-- [Flight Delay Prediction ML Pipeline](#flight-delay-pipeline)
-- [Hospital Readmission Dashboard](#hospital-dashboard)
-- [Market Basket Analysis](#market-basket-analysis)
-- [NoSQL MongoDB for Medical/Fitness Data](#medical-nosql)
-- [Patient Readmission Prediction with Random Forest](#patient-readmission-rf)
-- [Plant Seedling Classification with CNN](#plant-seedling-cnn)
-- [House Price Prediction with PCA](#pca-linear-regression)
-- [Relational DB Design for EcoMart](#ecomart-db)
-- [Sentiment Analysis with LSTM](#sentiment-analysis)
-- [Hospital Revenue Forecasting](#time-series-forecasting)
-- [Timetrak: Time-Tracking App](#timetrak)
+- [Amazon Air Optimization](/Amazon_Air_Optimization)zzzzzz
+- [Patient Characteristics Clustering](/Clustering_Techniques_Patient_Characteristics)
+- [Flight Delay Model Deployment](/Flight_Delay_Model_Deployment)
+- [Flight Delay Prediction ML Pipeline](/Flight_Delay_Prediction_ML_Pipeline)
+- [Hospital Readmission Dashboard](/Hospital_Readmission_Analysis_and_Interactive_Dashboard)
+- [Market Basket Analysis](/Market_Basket_Analysis)
+- [NoSQL MongoDB for Medical/Fitness Data](/NoSQL_MongoDB_for_Medical_and_Fitness_Data)
+- [Patient Readmission Prediction with Random Forest](/Patient_Readmission_Prediction_with_Random_Forest)
+- [Plant Seedling Classification with CNN](/Plant_Seedling_Classification_with_CNN)
+- [House Price Prediction with PCA](/Principal_Component_Analysis_and_Linear_Regression)
+- [Relational DB Design for EcoMart](/Relational_Database_Design_for_Ecomart)
+- [Sentiment Analysis with LSTM](/Sentiment_Analysis_LSTM_Neural_Networks)
+- [Hospital Revenue Forecasting](/Time_Series_Modeling_for_Hospital_Revenue_Forecasting_analysis)
+- [Timetrak: Time-Tracking App](/_Timetrak)
 
 ## Skills
 - **Languages**: Python, JavaScript, SQL
