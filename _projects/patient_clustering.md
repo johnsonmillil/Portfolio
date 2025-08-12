@@ -25,7 +25,6 @@ Assumes spherical clusters; may miss hierarchies.
 - Full Repo: [Clustering_Techniques_Patient_Characteristics](../Clustering_Techniques_Patient_Characteristics)
 - Code: [analysis.py](../Clustering_Techniques_Patient_Characteristics/analysis.py)
 
-
    <img width="800" height="600" alt="elbow_plot" src="https://github.com/user-attachments/assets/b70481dd-4241-4d53-afce-3227fdb83e84" />
 
   <img width="800" height="600" alt="cluster_plot" src="https://github.com/user-attachments/assets/bea27847-52f2-4944-beaa-ada9b3a9528c" />
