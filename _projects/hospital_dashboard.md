@@ -21,8 +21,9 @@ Tableau, Python (for prep).
 Storytelling via narrative structure engaged audiences; verbal descriptions ensured accessibility.
 
 ## Artifacts
-- Dashboard: [Readmission Dashboard](../Hospital_Readmission_Analysis_and_Interactive_Dashboard/JohnsonMillil_ReadmissionDashboard.twbx)
 - Full Repo: [Hospital_Readmission_Analysis_and_Interactive_Dashboard](../Hospital_Readmission_Analysis_and_Interactive_Dashboard)
+- Dashboard: [Readmission Dashboard](../Hospital_Readmission_Analysis_and_Interactive_Dashboard/JohnsonMillil_ReadmissionDashboard.twbx)
+
 <img width="1421" height="865" alt="image" src="https://github.com/user-attachments/assets/dd047eac-284e-47be-9684-12a26c561d31" />
 
   
