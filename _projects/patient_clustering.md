@@ -22,8 +22,9 @@ Python, Scikit-learn, Matplotlib.
 Assumes spherical clusters; may miss hierarchies.
 
 ## Artifacts
-- Code: [analysis.py](../Clustering_Techniques_Patient_Characteristics/analysis.py)
 - Full Repo: [Clustering_Techniques_Patient_Characteristics](../Clustering_Techniques_Patient_Characteristics)
+- Code: [analysis.py](../Clustering_Techniques_Patient_Characteristics/analysis.py)
+
 
    <img width="800" height="600" alt="elbow_plot" src="https://github.com/user-attachments/assets/b70481dd-4241-4d53-afce-3227fdb83e84" />
 
