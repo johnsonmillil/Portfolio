@@ -24,6 +24,6 @@ Resolved scipy compatibility; emphasized CI/CD for production.
 - Full Repo: [Flight_Delay_Model_Deployment](../Flight_Delay_Model_Deployment)
 - Code Files: [main.ipynb](../Flight_Delay_Model_Deployment/ml_deployment_app.py), [Dockerfile](../Flight_Delay_Model_Deployment/ml_deployment_dockerfile)
 
-  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/63572d18-4cb5-4448-98fa-13514a01d6cd" />
+  <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/63572d18-4cb5-4448-98fa-13514a01d6cd" />
 
 [Back to Home](/)
