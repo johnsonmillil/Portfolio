@@ -5,7 +5,7 @@ Welcome! I'm Johnson J. Millil, a recent MS in Data Science graduate. My project
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
 ## Featured Projects
-- [Amazon Air Optimization](#amazon-air-optimization)
+- [Amazon Air Optimization](/amazon-air)
 - [Patient Characteristics Clustering](#patient-clustering)
 - [Flight Delay Model Deployment](#ml-deployment)
 - [Flight Delay Prediction ML Pipeline](#flight-delay-pipeline)
