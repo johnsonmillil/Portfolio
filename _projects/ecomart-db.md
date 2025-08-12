@@ -22,9 +22,7 @@ PostgreSQL, SQL.
 Scalability via sharding/replication; privacy with encryption.
 
 ## Artifacts
-- Schema: [/ecomart-db/schema.sql]
-- Queries: [/ecomart-db/queries.sql]
-- Full Report: [Relational Database Design for Ecomart](../Relational_Database_Design_for_Ecomart/Relational_Database_Design_for_Ecomart_Report.pdf)
+- Full Report/Queries: [Relational Database Design for Ecomart](../Relational_Database_Design_for_Ecomart/Relational_Database_Design_for_Ecomart_Report.pdf)
 
 - Datamodel:
 
