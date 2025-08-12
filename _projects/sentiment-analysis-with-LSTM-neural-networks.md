@@ -1,4 +1,4 @@
-# Sentiment Analysis with LSTM Neural Networks (D604)
+# Sentiment Analysis with LSTM Neural Networks
 
 ## Overview
 Built a Recurrent Neural Network (RNN) with LSTM layers to classify customer sentiments (positive/negative) from UCI datasets (Amazon, IMDB, Yelp), aiding e-commerce decision-making.
@@ -24,8 +24,9 @@ Visuals: Loss/accuracy plots show training convergence, minor overfitting mitiga
 LSTM captured context well; dropout addressed overfitting. Ethical data splits ensured fairness.
 
 ## Artifacts
-- Code: [sentiment_analysis.ipynb](../Sentiment_Analysis_LSTM_Neural_Networks/sentiment_analysis.ipynb)
 - Full Repo: [Sentiment_Analysis_LSTM_Neural_Networks](../Sentiment_Analysis_LSTM_Neural_Networks)
+- Code File: [sentiment_analysis.ipynb](../Sentiment_Analysis_LSTM_Neural_Networks/sentiment_analysis.ipynb)
+
 <img width="640" height="480" alt="loss_plot" src="https://github.com/user-attachments/assets/49edb672-01db-4add-93d2-f7bc8b02fe53">
 
 [Back to Home](/)
