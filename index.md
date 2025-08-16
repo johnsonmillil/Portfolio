@@ -6,7 +6,7 @@ I’m Johnson J. Millil, an M.S. in Data Science graduate with hands-on experien
 
 ## Featured Projects
 - [Amazon Air Optimization](/_projects/amazon-air.md): Built a PuLP optimization model in Python to streamline flight logistics, reducing costs by 15%.
-- [Patient Characteristics Clustering](/_projects/patient_clustering.md)
+- [Patient Characteristics Clustering](/_projects/patient_clustering.md): Applied K-means clustering in Python (Scikit-learn) to segment patient data, improving interventions by 20%.
 - [Flight Delay Model Deployment](/_projects/flight_delay_ml-deployment.md)
 - [Flight Delay Prediction ML Pipeline](/_projects/flight-delay-pipeline.md)
 - [Hospital Readmission Dashboard](/_projects/hospital_dashboard.md)
