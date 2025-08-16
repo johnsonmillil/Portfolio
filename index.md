@@ -66,6 +66,7 @@ Click on the links to explore detailed project pages.
       }
     }
   });
+</script>
 
 ---
 
