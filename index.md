@@ -5,7 +5,7 @@ I’m Johnson J. Millil, an M.S. in Data Science graduate with hands-on experien
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
 ## Featured Projects
-- [Amazon Air Optimization](/_projects/amazon-air.md): Developed a TensorFlow/Keras CNN in Python for multi-class classification of 12 plant seedling types, achieving 78.7% accuracy. Implemented preprocessing, augmentation, and confusion matrix visualization, adaptable to digital pathology workflows.
+- [Amazon Air Optimization](/_projects/amazon-air.md): Built a PuLP optimization model in Python to streamline flight logistics, reducing costs by 15%.
 - [Patient Characteristics Clustering](/_projects/patient_clustering.md)
 - [Flight Delay Model Deployment](/_projects/flight_delay_ml-deployment.md)
 - [Flight Delay Prediction ML Pipeline](/_projects/flight-delay-pipeline.md)
