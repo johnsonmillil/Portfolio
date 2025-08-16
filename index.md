@@ -6,7 +6,7 @@ I’m Johnson J. Millil, an M.S. in Data Science graduate with hands-on experien
 
 ## Featured Projects 
 
-Click on the links to explore detailed project pages. ⭐ indicates key projects highlighted in my resume.
+Click on the links to explore detailed project pages.
 
 - [Amazon Air Optimization](/_projects/amazon-air.md): Built a PuLP optimization model in Python to streamline flight logistics, reducing costs by 15%.
 - [Patient Characteristics Clustering](/_projects/patient_clustering.md): Applied K-means clustering in Python (Scikit-learn) to segment patient data, improving interventions by 20%.
@@ -15,7 +15,7 @@ Click on the links to explore detailed project pages. ⭐ indicates key projects
 - [Hospital Readmission Dashboard](/_projects/hospital_dashboard.md): Created a Tableau dashboard for readmission analytics, enhancing insights by 30%.
 - [Market Basket Analysis](/_projects/market-basket-analysis.md): Conducted market basket analysis with mlxtend in Python, boosting sales by 10% via product associations.
 - [NoSQL MongoDB for Medical/Fitness Data](/_projects/medical-nosql.md): Designed MongoDB schemas for medical data, improving query speed by 40% with indexing.
-⭐ [Patient Readmission Prediction with Random Forest](/_projects/patient-readmission-random-forest.md): Built a Random Forest model in Python (Scikit-learn) for 30-day hospital readmissions, achieving 96.8% accuracy and 95.3% F1 score, identifying key clinical predictors.  
+- [Patient Readmission Prediction with Random Forest](/_projects/patient-readmission-random-forest.md): Built a Random Forest model in Python (Scikit-learn) for 30-day hospital readmissions, achieving 96.8% accuracy and 95.3% F1 score, identifying key clinical predictors.  
 - [Plant Seedling Classification with CNN](/_projects/plant-seeding-classification-with-cnn.md): Developed a TensorFlow/Keras CNN in Python for multi-class classification of 12 plant seedling types, achieving 78.7% accuracy with preprocessing and visualization.  
 - [House Price Prediction with PCA](/_projects/pca-linear-regression.md): Used PCA and Scikit-learn in Python for house price prediction, achieving 80% accuracy with optimized feature reduction. 
 - [Relational DB Design for EcoMart](/_projects/ecomart-db.md): Optimized a PostgreSQL database for e-commerce, improving query performance by 50% with indexing and sharding.  
@@ -31,6 +31,43 @@ Click on the links to explore detailed project pages. ⭐ indicates key projects
 - **Full-Stack Frameworks**: Node.js, Express, React (incl. React Router), Vite, Axios, JWT/Bcrypt (authentication)
 - **Domains**: Machine Learning, Deep Learning (CNN, LSTM), NLP, Time Series Forecasting, Optimization (Linear Programming), Market Basket Analysis, Computer Vision, Relational/NoSQL Database Design, Cloud Deployment, Data Storytelling
 - **Project Management & Other**: Agile, Scrum, Jira, Networking (TCP/IP, DNS), Jupyter Notebook, RStudio, Database Indexing/Optimization
+
+---
+
+## Achievements Chart
+
+<div>
+  <canvas id="achievementsChart" style="max-height: 400px;"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('achievementsChart').getContext('2d');
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Patient Readmission', 'Plant Seedling Classification', 'Sentiment Analysis', 'Database Performance', 'Cost Reduction', 'Stakeholder Insights'],
+      datasets: [{
+        label: 'Achievement (%)',
+        data: [96.8, 78.7, 81.4, 50, 15, 30],
+        backgroundColor: ['#36A2EB', '#FF6384', '#4BC0C0', '#FFCE56', '#9966FF', '#C9CBCF'],
+        borderColor: ['#2A8ABF', '#D94F70', '#3A9C9C', '#D4A017', '#7A52CC', '#A8A9AD'],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: { beginAtZero: true, title: { display: true, text: 'Percentage (%)' } },
+        x: { title: { display: true, text: 'Achievement' } }
+      },
+      plugins: {
+        legend: { display: false },
+        title: { display: true, text: 'Data Science Project Achievements' }
+      }
+    }
+  });
+
+---
 
 ## About Me
 I’m passionate about transforming complex datasets into actionable insights and scalable solutions. I enjoy tackling challenges at the intersection of data, cloud, and software engineering. Outside of coding, I thrive on continuous learning, whether that’s experimenting with new ML algorithms or optimizing cloud deployments. My goal is to apply data science to solve real-world problems that create measurable business and social impact.
