@@ -5,7 +5,7 @@ I’m Johnson J. Millil, an M.S. in Data Science graduate with hands-on experien
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
 ## Featured Projects
-- [Amazon Air Optimization](/_projects/amazon-air.md)
+- [Amazon Air Optimization](/_projects/amazon-air.md): Developed a TensorFlow/Keras CNN in Python for multi-class classification of 12 plant seedling types, achieving 78.7% accuracy. Implemented preprocessing, augmentation, and confusion matrix visualization, adaptable to digital pathology workflows.
 - [Patient Characteristics Clustering](/_projects/patient_clustering.md)
 - [Flight Delay Model Deployment](/_projects/flight_delay_ml-deployment.md)
 - [Flight Delay Prediction ML Pipeline](/_projects/flight-delay-pipeline.md)
@@ -27,10 +27,10 @@ I’m Johnson J. Millil, an M.S. in Data Science graduate with hands-on experien
 - **Full-Stack Frameworks**: Node.js, Express, React, React Router
 - **Frontend Tools**: Vite, Chart.js, react-csv, Axios, Popper.js
 - **Databases**: MySQL (RDS), MongoDB, PostgreSQL
-- **Visualization**: Matplotlib, Seaborn, Tableau
+- **Visualization**: Matplotlib, Seaborn, Tableau, Power BI
 - **Deployment/DevOps**: Docker, FastAPI, AWS (EC2, RDS, S3, Elastic Beanstalk/Lambda), GitLab CI/CD, GitHub, MLflow
 - **Domains**: Machine Learning (LSTM, SARIMA, Linear/Logistic Regression, Random Forest, K-means Clustering, Polynomial Regression), NLP, Time Series Forecasting, Optimization (Linear Programming), Market Basket Analysis, Computer Vision (CNN), Full-Stack Web Development, Data Storytelling, Relational/NoSQL Database Design, Cloud Deployment
 - **Other**: Jupyter Notebook, Faker (mock data), ESLint, JWT/Bcrypt (authentication), CORS, DB Indexing/Optimization
 
 ## About Me
-I am Passionate about solving complex problems through data-driven insights, efficient algorithms, and scalable applications. Experienced in end-to-end workflows, from data preprocessing to model deployment and web app development.
+I’m passionate about transforming complex datasets into actionable insights and scalable solutions. I enjoy tackling challenges at the intersection of data, cloud, and software engineering. Outside of coding, I thrive on continuous learning, whether that’s experimenting with new ML algorithms or optimizing cloud deployments. My goal is to apply data science to solve real-world problems that create measurable business and social impact.
