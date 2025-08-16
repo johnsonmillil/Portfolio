@@ -1,6 +1,6 @@
 # Johnson J. Millil - Portfolio
 
-Welcome! I'm Johnson J. Millil, a recent MS in Data Science graduate. My projects demonstrate expertise in machine learning, optimization, full-stack development, and cloud deployment, delivering actionable insights for real-world problems. 
+I’m Johnson J. Millil, an M.S. in Data Science graduate with hands-on experience in machine learning, cloud deployment, and full-stack development. My portfolio highlights end-to-end solutions — from building predictive models and optimizing infrastructure to deploying production-ready applications — that deliver measurable impact in healthcare, logistics, and business domains.
 
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
