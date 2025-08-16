@@ -4,7 +4,7 @@ I’m Johnson J. Millil, an M.S. in Data Science graduate with hands-on experien
 
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
-## Featured Projects (Click on the link to see more)
+## Featured Projects (Click on the links to see more)
 - [Amazon Air Optimization](/_projects/amazon-air.md): Built a PuLP optimization model in Python to streamline flight logistics, reducing costs by 15%.
 - [Patient Characteristics Clustering](/_projects/patient_clustering.md): Applied K-means clustering in Python (Scikit-learn) to segment patient data, improving interventions by 20%.
 - [Flight Delay Model Deployment](/_projects/flight_delay_ml-deployment.md): Deployed a flight delay prediction model on AWS Lambda using Python, achieving 85% accuracy.
