@@ -21,7 +21,8 @@ Click on the links to explore detailed project pages.
 - [Relational DB Design for EcoMart](/_projects/ecomart-db.md): Optimized a PostgreSQL database for e-commerce, improving query performance by 50% with indexing and sharding.  
 - [Sentiment Analysis with LSTM](/_projects/sentiment-analysis-with-LSTM-neural-networks.md): Created an LSTM RNN in TensorFlow/Keras for product review classification, achieving 81.4% accuracy with tokenization and early stopping.  
 - [Hospital Revenue Forecasting](/_projects/time-series-forecasting.md): Built a SARIMA model in Python for hospital revenue forecasting, reducing prediction error by 12%.  
-- [Timetrak: Time-Tracking App](/_projects/timetrak.md): Led development of a Node.js, React, and AWS (EC2, RDS) time-tracking app, supporting 100+ users with real-time reporting and secure authentication (JWT/Bcrypt).  
+- [Timetrak: Time-Tracking App](/_projects/timetrak.md): Led development of a Node.js, React, and AWS (EC2, RDS) time-tracking app, supporting 100+ users with real-time reporting and secure authentication (JWT/Bcrypt).
+- [Data Platform: Organization Management System](/_projects/data_platform.md): Contributed to a Node.js, Vue.js 3, and MongoDB full-stack app, enabling role-based user management (viewer/editor) with JWT/Bcrypt authentication and scalable API endpoints.
 
 ## Skills
 - **Programming & ML**: Python (Pandas, NumPy, Scikit-learn, TensorFlow, Keras, Statsmodels, MLflow), R, SQL, JavaScript
