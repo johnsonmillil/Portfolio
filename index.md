@@ -1,7 +1,8 @@
 # Johnson Joseph Millil - Portfolio 
-## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
 I’m Johnson Millil, an M.S. in Data Science graduate with expertise in machine learning, cloud deployment, and full-stack development. My portfolio showcases end-to-end solutions — from predictive models and optimized data pipelines to production-ready applications — delivering measurable impact in healthcare, logistics, and e-commerce.
+
+## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
 ## Featured Projects 
 
