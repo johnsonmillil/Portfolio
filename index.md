@@ -1,6 +1,6 @@
-# Johnson J. Millil - Portfolio
+# Johnson Joseph Millil - Portfolio
 
-I’m Johnson J. Millil, an M.S. in Data Science graduate with hands-on experience in machine learning, cloud deployment, and full-stack development. My portfolio highlights end-to-end solutions — from building predictive models and optimizing infrastructure to deploying production-ready applications — that deliver measurable impact in healthcare, logistics, and business domains.
+I’m Johnson Millil, an M.S. in Data Science graduate with hands-on experience in machine learning, cloud deployment, and full-stack development. My portfolio highlights end-to-end solutions — from building predictive models and optimizing infrastructure to deploying production-ready applications — that deliver measurable impact in healthcare, logistics, and business domains.
 
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
@@ -25,13 +25,14 @@ Click on the links to explore detailed project pages.
 - [Data Platform: Organization Management System](/_projects/data_platform.md): Contributed to a Node.js, Vue.js 3, and MongoDB full-stack app, enabling role-based user management (viewer/editor) with JWT/Bcrypt authentication and scalable API endpoints.
 
 ## Skills
-- **Programming & ML**: Python (Pandas, NumPy, Scikit-learn, TensorFlow, Keras, Statsmodels, MLflow), R, SQL, JavaScript
-- **Cloud & DevOps**: AWS (EC2, RDS, S3, Lambda, CodePipeline, CloudFormation) [Solutions Architect Certified], Azure (Entra), Terraform, Docker, FastAPI, VMware, GitLab CI/CD, Git/GitHub, PowerShell
-- **Databases**: PostgreSQL, MySQL (RDS), MongoDB, Snowflake
+- **Programming & ML**: Python (Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, Keras, Statsmodels, MLflow, Hugging Face (Transformers), SciPy), R (dplyr, tidyr), SQL, JavaScript, Excel (Data Analysis, Pivot Tables, VLOOKUP) 
+- **Cloud & DevOps**: AWS (EC2, RDS, S3, Lambda, CodePipeline, CloudFormation) [Solutions Architect Certified], Azure (Entra), Terraform, Docker, FastAPI, VMware, GitLab CI/CD, Git/GitHub, PowerShell, Airflow
+- **Big Data Technologies**: Apache Spark (PySpark), Snowflake 
+- **Databases**: PostgreSQL, MySQL (RDS), MongoDB
 - **Data Visualization**: Tableau, Power BI, Seaborn, Matplotlib, Chart.js
-- **Full-Stack Frameworks**: Node.js, Express, React (incl. React Router), Vite, Axios, JWT/Bcrypt (authentication)
-- **Domains**: Machine Learning, Deep Learning (CNN, LSTM), NLP, Time Series Forecasting, Optimization (Linear Programming), Market Basket Analysis, Computer Vision, Relational/NoSQL Database Design, Cloud Deployment, Data Storytelling
-- **Project Management & Other**: Agile, Scrum, Jira, Networking (TCP/IP, DNS), Jupyter Notebook, RStudio, Database Indexing/Optimization
+- **Full-Stack Frameworks**: Node.js, Vue.js Express, React (incl. React Router), Vite, Axios, JWT/Bcrypt (authentication), Rest APIs
+- **Domains**: Machine Learning, Deep Learning (CNN, LSTM), NLP, Time Series Forecasting, Optimization (A/B Testing, Linear Programming), Market Basket Analysis, Computer Vision, Relational/NoSQL Database Design, Cloud Deployment, Data Storytelling
+- **Project Management & Other**: Agile, Scrum, Jira, Networking (TCP/IP, DNS), Jupyter Notebook, JupyterLab, RStudio, Database Indexing/Optimization, Stakeholder Communication
 
 ## About Me
 I’m passionate about transforming complex datasets into actionable insights and scalable solutions. I enjoy tackling challenges at the intersection of data, cloud, and software engineering. Outside of coding, I thrive on continuous learning, whether that’s experimenting with new ML algorithms or optimizing cloud deployments. My goal is to apply data science to solve real-world problems that create measurable business and social impact.
