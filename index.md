@@ -1,6 +1,6 @@
 # Johnson Joseph Millil - Portfolio
 
-I’m Johnson Millil, an M.S. in Data Science graduate with hands-on experience in machine learning, cloud deployment, and full-stack development. My portfolio highlights end-to-end solutions — from building predictive models and optimizing infrastructure to deploying production-ready applications — that deliver measurable impact in healthcare, logistics, and business domains.
+I’m Johnson Millil, an M.S. in Data Science graduate with expertise in machine learning, cloud deployment, and full-stack development. My portfolio showcases end-to-end solutions — from predictive models and optimized data pipelines to production-ready applications — delivering measurable impact in healthcare, logistics, and e-commerce.
 
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
@@ -34,5 +34,14 @@ Click on the links to explore detailed project pages.
 - **Domains**: Machine Learning, Deep Learning (CNN, LSTM), NLP, Time Series Forecasting, Optimization (A/B Testing, Linear Programming), Market Basket Analysis, Computer Vision, Relational/NoSQL Database Design, Cloud Deployment, Data Storytelling
 - **Project Management & Other**: Agile, Scrum, Jira, Networking (TCP/IP, DNS), Jupyter Notebook, JupyterLab, RStudio, Database Indexing/Optimization, Stakeholder Communication
 
+## Certifications
+- AWS Certified Solutions Architect - Associate (2024)
+- WGU Certificate - Data Science Professional (2025)
+- WGU Certificate - Data Operations (2025)
+- WGU Certificate - Data Analytics Professional (2025)
+
 ## About Me
-I’m passionate about transforming complex datasets into actionable insights and scalable solutions. I enjoy tackling challenges at the intersection of data, cloud, and software engineering. Outside of coding, I thrive on continuous learning, whether that’s experimenting with new ML algorithms or optimizing cloud deployments. My goal is to apply data science to solve real-world problems that create measurable business and social impact.
+I’m passionate about transforming complex datasets into actionable insights and scalable solutions. I thrive on challenges at the intersection of data science, cloud, and software engineering. Outside of coding, I enjoy experimenting with new ML algorithms and optimizing cloud deployments. My goal is to solve real-world problems that drive business and social impact.
+
+## Let’s Connect
+Interested in collaborating or discussing opportunities? Reach out at [johnsonmillil7@gmail.com](mailto:johnsonmillil7@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/). Explore my code on [GitHub](https://github.com/johnsonmillil/Portfolio)!
