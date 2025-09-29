@@ -2,7 +2,7 @@
 
 Hello everyone, thanks for visiting my page!
 
-I’m an M.S. in Data Science graduate with expertise in machine learning, cloud deployment, and full-stack development. My portfolio showcases end-to-end solutions — from predictive models and optimized data pipelines to production-ready applications — delivering measurable impact in healthcare, logistics, and e-commerce.
+I’m an M.S. in Data Science graduate with expertise in machine learning, cloud deployment, and full-stack development. My portfolio showcases end-to-end solutions from predictive models and optimized data pipelines to production-ready applications, delivering measurable impact in healthcare, logistics, and e-commerce.
 
 ## Contact: johnsonmillil7@gmail.com | [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/)
 
