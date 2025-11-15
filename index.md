@@ -46,4 +46,4 @@ Click on the links to explore detailed project pages.
 I’m passionate about transforming complex datasets into actionable insights and scalable solutions. I thrive on challenges at the intersection of data science, cloud, and software engineering. Outside of coding, I enjoy experimenting with new ML algorithms and optimizing cloud deployments. My goal is to solve real-world problems that drive business and social impact.
 
 ## Let’s Connect
-Interested in collaborating or discussing opportunities? Reach out at [johnsonmillil7@gmail.com](mailto:johnsonmillil7@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/). Explore my code through this [GitHub](https://github.com/johnsonmillil/Portfolio) repo!
+Interested in collaborating or discussing opportunities? Reach out to me at [johnsonmillil7@gmail.com](mailto:johnsonmillil7@gmail.com) or connect with me via [LinkedIn](https://www.linkedin.com/in/johnson-millil-28ba60245/). Also, please feel free to explore more on my projects through this [GitHub](https://github.com/johnsonmillil/Portfolio) repo!
