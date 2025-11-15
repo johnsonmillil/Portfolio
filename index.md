@@ -37,10 +37,10 @@ Click on the links to explore detailed project pages.
 - **Project Management & Other**: Agile, Scrum, Jira, Networking (TCP/IP, DNS), Jupyter Notebook, JupyterLab, RStudio, Database Indexing/Optimization, Stakeholder Communication
 
 ## Certifications
-- AWS Certified Solutions Architect - Associate (2024)
-- WGU Certificate - Data Science Professional (2025)
-- WGU Certificate - Data Operations (2025)
-- WGU Certificate - Data Analytics Professional (2025)
+- AWS Certified Solutions Architect - Associate
+- WGU Certificate - Data Science Professional
+- WGU Certificate - Data Operations
+- WGU Certificate - Data Analytics Professional
 
 ## About Me
 I’m passionate about transforming complex datasets into actionable insights and scalable solutions. I thrive on challenges at the intersection of data science, cloud, and software engineering. Outside of coding, I enjoy experimenting with new ML algorithms and optimizing cloud deployments. My goal is to solve real-world problems that drive business and social impact.
